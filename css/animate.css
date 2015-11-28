@@ -1,0 +1,197 @@
+/** animate **/
+
+@-moz-keyframes dropCaption {
+  0% {
+    -moz-transform: translateY(-40px);
+	opacity:0;
+  }
+  100% {
+    -moz-transform: translateY(0);
+	opacity:1;
+  }
+}
+
+@-webkit-keyframes dropCaption {
+  0% {
+    -webkit-transform: translateY(-40px);
+	opacity:0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+	opacity:1;
+  }
+}
+
+@keyframes dropCaption {
+  0% {
+    transform: translateY(-40px);
+	opacity:0;
+  }
+  100% {
+    transform: translateY(0);
+	opacity:1;
+  }
+}
+/*
+ .slide1 .punch-line,.welcome-text,.discover-menu-button{
+	-moz-animation-name: dropCaption;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-duration: 0.5s;
+	-webkit-animation-name: dropCaption;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-duration: 0.5s;
+	animation-name: dropCaption;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+	z-index:30000;
+ }
+
+ */
+ 
+ 
+ /** Graphics menu Animation **/
+/*
+@-moz-keyframes popMenu {
+  0% {
+    -moz-transform: translateY(40px);
+	display:inline-block;
+	opacity:0;
+  }
+  100% {
+    -moz-transform: translateY(0);
+	display:inline-block;
+	opacity:1;
+  }
+}
+
+@-webkit-keyframes popMenu {
+  0% {
+    -webkit-transform: translateY(40px);
+	display:inline-block;
+	opacity:0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+	display:inline-block;
+	opacity:1;
+  }
+}
+
+@keyframes popMenu {
+  0% {
+    transform: translateY(40px);
+	display:inline-block;
+	opacity:0;
+  }
+  100% {
+    transform: translateY(0);
+	display:inline-block;
+	opacity:1;
+  }
+}
+
+.graphics-menu>ul>li.item1{
+	-moz-animation-name: popMenu;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-duration: 1s;
+	-webkit-animation-name: popMenu;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-duration: 1s;
+	animation-name: popMenu;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+	
+	animation-delay:0.1s;
+	-webkit-animation-delay:0.1s;
+	-moz-animation-delay:0.1s;
+	opacity:1;
+	display:inline-block;
+}
+.graphics-menu>ul>li.item2{
+	-moz-animation-name: popMenu;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-duration: 1s;
+	-webkit-animation-name: popMenu;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-duration: 1s;
+	animation-name: popMenu;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+	
+	animation-delay:0.2s;
+	-webkit-animation-delay:0.2s;
+	-moz-animation-delay:0.2s;
+	opacity:1;
+	display:inline-block;
+}
+.graphics-menu>ul>li.item3{
+	-moz-animation-name: popMenu;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-duration: 1s;
+	-webkit-animation-name: popMenu;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-duration: 1s;
+	animation-name: popMenu;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+	
+	animation-delay:0.3s;
+	-webkit-animation-delay:0.3s;
+	-moz-animation-delay:0.3s;
+	opacity:1;
+	display:inline-block;
+}
+.graphics-menu>ul>li.item4{
+	-moz-animation-name: popMenu;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-duration: 1s;
+	-webkit-animation-name: popMenu;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-duration: 1s;
+	animation-name: popMenu;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+	
+	animation-delay:0.4s;
+	-webkit-animation-delay:0.4s;
+	-moz-animation-delay:0.4s;
+	opacity:1;
+	display:inline-block;
+}
+.graphics-menu>ul>li.item5{
+	
+	-moz-animation-name: popMenu;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-duration: 1s;
+	-webkit-animation-name: popMenu;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-duration: 1s;
+	animation-name: popMenu;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+	
+	animation-delay:0.5s;
+	-webkit-animation-delay:0.5s;
+	-moz-animation-delay:0.5;
+	opacity:1;
+	display:inline-block;
+}
+*/

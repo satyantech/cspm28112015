@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+		<link rel="icon" href="img/logo.png" sizes="16x16" type="image/png">
+		<title>..:: Pulimunchi | Gallery ::..</title>
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="tp/metro-gallery/css/default.css" />
+		<link rel="stylesheet" type="text/css" href="tp/metro-gallery/css/climacons.css" />
+		<link rel="stylesheet" type="text/css" href="tp/metro-gallery/css/component2.css" />
+		<script src="tp/metro-gallery/js/modernizr.custom.js"></script>
+		<style>
+			body{
+				background: #FFF;
+			}
+			.menupage-logo{
+				background:#000;
+				padding:5px;
+				text-align:center;
+				margin-bottom:20px;
+			}
+			.menupage-logo img{
+				width:300px;
+			}
+			ul#rb-grid li{
+				background:url("img/icons/loader.gif") center no-repeat;
+			}
+			.rb-close{
+				border-radius:400px !important;
+				background:rgba(120,0,0,0.7);
+				padding:5px 10px;
+				height:40px;
+			}
+		</style>
+	</head>
+	<body style="margin:0px;">
+		<div class="menupage-logo"><a href="./index.html"><img src="img/text-logo-on-black.png" width="" height=""></a></div>
+		<!-- Page Content Starts -->
+		<div class="main">
+
+			<ul id="rb-grid" class="rb-grid clearfix">
+				<li class="rb-span-2">
+					<div class="rb-overlay" bg-img="img/gallery/1.jpg">
+						<span class="rb-close">close</span>
+					</div>
+				</li>
+				<li class="">
+					<div class="rb-overlay" bg-img="img/gallery/2.jpg">
+						<span class="rb-close">close</span>
+					</div>
+				</li>
+				<li class="">
+					<div class="rb-overlay" bg-img="img/gallery/3.jpg">
+						<span class="rb-close">close</span>
+					</div>
+				</li>
+				<li class="">
+					<div class="rb-overlay" bg-img="img/gallery/4.jpg">
+						<span class="rb-close">close</span>
+					</div>
+				</li>
+				<li class="">
+					<div class="rb-overlay" bg-img="img/gallery/5.jpg">
+						<span class="rb-close">close</span>	
+					</div>
+				</li>
+				<li class="rb-span-2">
+					<div class="rb-overlay" bg-img="img/gallery/1.jpg">
+						<span class="rb-close">close</span>
+					</div>
+				</li>
+				<li class="rb-span-4">
+					<div class="rb-overlay" bg-img="img/gallery/9.jpg">
+						<span class="rb-close">close</span>
+					</div>
+				</li>
+				<li class="">
+					<div class="rb-overlay" bg-img="img/gallery/7.jpg">
+						<span class="rb-close">close</span>
+					</div>
+				</li>
+				<li class="rb-span-2">
+					<div class="rb-overlay" bg-img="img/gallery/8.jpg">
+						<span class="rb-close">close</span>
+					</div>
+				</li>
+				<li class="">
+					<div class="rb-overlay" bg-img="img/gallery/9.jpg">
+						<span class="rb-close">close</span>
+					</div>
+				</li>
+			</ul>	
+		</div>
+		<!-- Footer [Start] -->
+		<div class="footer">
+			<div id="footer-menu">
+				<a href="/">Home</a> |
+				<a href="menu.html">Menu</a>
+			</div>
+			<div class="copyright">Pulimunchi 2015 | All rights reserved. | Powered by: <a href="www.satyantech.com" target="_blank">N SATYANARAYAN IYENGAR</a></div>
+		</div>
+		<!-- Footer [End] -->
+		<!-- Page Content Ends -->
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="tp/metro-gallery/js/jquery.fittext.js"></script>
+		<script src="tp/metro-gallery/js/boxgrid.example2.js"></script>
+		<script>
+			$(function() {
+
+				Boxgrid.init();
+				
+				$("ul#rb-grid li").each(function(){
+					$(this).css({'background':'url(' + $(this).find('.rb-overlay').attr('bg-img') + ') center no-repeat rgba(0,0,0,0.5)'});
+				});
+				
+				$("ul#rb-grid li").click(function(){
+					var ob = $(this).find('.rb-overlay').attr('bg-img');
+					if(ob!=""){
+						$(this).find('.rb-overlay').css({
+							'background':'url(' + ob + ') 0px 0px no-repeat rgba(0,0,0,0.5)',
+							'background-size':'cover'
+						});
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

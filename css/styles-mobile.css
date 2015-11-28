@@ -1,0 +1,67 @@
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 1024px) {
+	*,html{
+		border-radius:0px !important;
+	}
+	body{
+		min-width:200px;
+		overflow-x:hidden;
+	}
+	.slide1{
+		
+	}
+	.slide2> img.background-image{
+		display:none !important;
+	}
+	.slide3>.content>.special-image{
+		display:none;
+	}
+	.slide3>.content{
+		height:auto;
+		overflow:stretch;
+		display:block;
+	}
+	.slide3>.content>.special-menu{
+		width:100%;
+		overflow:hidden;
+	}
+	.slide3>.content>.special-menu>.special-menu-items>ul{
+		margin:-30px 0px 10px 0px;
+	}
+	.slide3>.content>.special-menu>.special-menu-items>ul>li{
+		width:100%;
+	}
+	.menu-left-img, .menu-right-img {
+		display:none;
+	}
+	.slide4{
+		display:block;
+		clear:both;
+	}
+	#slider{
+		width:90% !important;
+	}
+	#slider p{
+		font-size: 110% !important;
+		text-align:justify !important;
+	}
+	.testimonial-author{
+		display:block;
+		position:relative;
+		text-align:right !important;
+		color:#999;
+	}
+	.mailus-text{
+		display:block;
+		font-size:120%;
+	}
+	.st-mail{
+		font-family: "Handwritten";
+		font-size:150%;
+	}
+	.footer ul.footer-links li{
+		min-width:100%;
+	}
+}
+
